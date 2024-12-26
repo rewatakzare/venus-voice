@@ -20,7 +20,7 @@ const features = [
 
 export default function AboutUs() {
   return (
-    <div className="bg-white p-4 pt-[6%]">
+    <div className="bg-white p-4 py-[7rem]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-5xl font-bold mb-8">About Us</h2>
         <p className='mb-7 text-md font-semibold'>Venus voice is the new institution launched newly for all online learners who meet the challenges of learning English language skills with innovative methods of virtual learning.
