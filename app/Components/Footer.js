@@ -27,7 +27,6 @@ export default function Footer() {
     <footer className="bg-[#000027] text-white p-4 py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
-          {/* Logo and Description Section */}
           <div className="md:col-span-1">
             <div className="bg-white rounded-lg p-6 text-center">
               <div className="relative w-32 h-32 mx-auto mb-4 text-center">
