@@ -2,6 +2,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
+import { IoLogoInstagram } from "react-icons/io5";
+import { FaLinkedin } from "react-icons/fa";
 
 const quickLinks = [
   { name: 'Home', href: '/' },
@@ -87,6 +89,12 @@ export default function Footer() {
               </li>
             </ul>
             <div className="socials flex space-x-4 mt-6">
+            <a href="https://www.linkedin.com/in/venus-voice/ " className="hover:text-yellow-400 transition-colors">
+                <FaLinkedin className="h-6 w-6"/>
+              </a>
+              <a href="https://www.instagram.com/venusvoice24 " className="hover:text-yellow-400 transition-colors">
+              <IoLogoInstagram className="h-6 w-6"/>
+              </a>
             </div>
           </div>
         </div>
