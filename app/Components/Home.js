@@ -22,7 +22,7 @@ export default function Home() {
           </p>
 
           {/* Heading */}
-          <h1 className="mt-[6vw] tracking-wide text-4xl w sm:text-6xl md:text-7xl font-bold text-white">
+          <h1 className="pt-[4vh] tracking-wide text-4xl w sm:text-6xl md:text-7xl font-bold text-white">
             {' '}
             <span className="relative ">
               Venus Voice
