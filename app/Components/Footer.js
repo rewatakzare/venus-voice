@@ -19,7 +19,7 @@ const courseLinks = [
   { name: 'Business Communication and Soft Skill', href: '/courses#business-communication' },
   { name: 'Master Business Communication', href: '/courses#mbc' },
   { name: 'IELTS Preparation Course', href: '/courses#ielts' },
-  { name: 'Our Educators', href: '#educators' },
+  { name: 'Our Educators', href: '/Educators' },
 ]
 
 export default function Footer() {

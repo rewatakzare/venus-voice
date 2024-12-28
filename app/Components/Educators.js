@@ -97,7 +97,7 @@ function EducatorCard({ educator }) {
 
 export default function Educators() {
   return (
-    <div id='educators' className="bg-gray-100 py-16 p-4">
+    <div id='educators' className="bg-gray-100 py-[7rem] p-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-5xl font-bold mb-10">Our Educators</h2>
         <div className="space-y-4">
