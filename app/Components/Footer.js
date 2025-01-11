@@ -4,13 +4,14 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 const quickLinks = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/About' },
   { name: 'Contact', href: '/Contact' },
   { name: 'Privacy Policy', href: '/privacy' },
-  { name: 'Terms of Service', href: '/terms' },
+  { name: 'Terms and Conditions', href: '/terms' },
   { name: 'Cookie Policy', href: '/cookies' },
 ]
 
@@ -76,9 +77,12 @@ export default function Footer() {
           <div className="md:col-span-1">
             <h3 className="text-lg font-semibold mb-6">Contact</h3>
             <ul className="space-y-4">
-              <li className="flex items-start space-x-2">
+              <li className=" items-start">
                 <a href="tel:+919302395463" className="flex hover:text-yellow-400 transition-colors">
                 <FaPhoneAlt  className='mr-2 w-4 h-4'/> +91 93023 95463
+                </a>
+                <a href="tel:+919302395463" className="flex hover:text-yellow-400 transition-colors">
+                <FaPhoneAlt  className='mr-2 w-4 h-4'/>+91 8790209839
                 </a>
               </li>
               <li className="flex items-start space-x-2">
@@ -93,6 +97,9 @@ export default function Footer() {
               </a>
               <a href="https://www.instagram.com/venusvoice24 " className="hover:text-yellow-400 transition-colors">
               <IoLogoInstagram className="h-6 w-6"/>
+              </a>
+              <a href="https://www.facebook.com/people/Venus-Voice/61571596585764/ " className="hover:text-yellow-400 transition-colors">
+              <FaFacebook  className="h-6 w-6"/>
               </a>
             </div>
           </div>

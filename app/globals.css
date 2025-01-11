@@ -2,15 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-/* styles/globals.css */
 @font-face {
-    font-family: 'helvatica';
-    src: url('/HelveticaNowVar.ttf') format('truetype');
+    font-family: 'Montserrat';
+    src: url('/Montserrat-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
   
   body {
-    font-family: 'helvatica', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
   

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import Background from "./Background";
 
@@ -32,17 +31,17 @@ export default function Home() {
 
           {/* Subtext */}
           <p className="mt-10 sm:mt-[4rem] max-w-2xl mx-auto text-sm sm:text-lg text-slate-500">
-          Venus Voice is the new institution launched(2024) for all online learners
+          Venus Voice is the institution launched for all online learners
           who meet the challenges of learning English language skills.
           </p>
 
           {/* Call-to-Action Button */}
           <div className="mt-10 sm:mt-12">
             <Link
-            href="https://wa.me/+919302395463"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScyEJtGotVeOb9plV4fS3JUQFpYZzzTpWuhXYn49DZyNj_6mQ/viewform?usp=dialog"
               className="inline-flex items-center px-6 py-3 sm:px-8 sm:py-4 border border-yellow-400 text-yellow-400 text-sm sm:text-base font-medium rounded-full bg-transparent hover:bg-yellow-400 hover:text-black transition-transform transform hover:scale-105"
             >
-              Get In Touch
+            Get In Touch
             </Link>
           </div>
         </div>

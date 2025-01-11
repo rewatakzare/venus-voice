@@ -80,7 +80,11 @@ export default function Navbar() {
   }
 
   return (
-    <nav className={`text-yellow-500  fixed top-0 left-0 right-0 z-50 transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
+    <nav className={`text-yellow-500  fixed top-0 left-0 right-0 z-50 transition-transform duration-300  ${isVisible ? 'translate-y-0' : '-translate-y-full'
+    } ${
+      isOpen ? 'bg-[#000027]' : 'backdrop-blur-md'
+    }`} 
+    >
       <div className="backdrop-blur-md">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
@@ -126,7 +130,7 @@ export default function Navbar() {
                 <svg
                   className={`${isOpen ? 'block' : 'hidden'} h-6 w-6`}
                   xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
+                  fill=""
                   viewBox="0 0 24 24"
                   stroke="currentColor"
                   aria-hidden="true"
@@ -142,15 +146,12 @@ export default function Navbar() {
             </div>
 
             {/* Desktop menu */}
-            <div className="hidden md:flex md:items-center md:space-x-8">
+            <div className="hidden md:flex md:items-center md:space-x-8 ">
               <Link href="/" className="text-gray-500 hover:text-gray-400">
                 Home
               </Link>
               <Link href="/About" className="text-gray-500 hover:text-gray-400">
                 About
-              </Link>
-              <Link href="/Contact" className="text-gray-500 hover:text-gray-400">
-                Contact
               </Link>
               <Link href="" className="text-gray-500 hover:text-gray-400">
               <div className="relative" ref={dropdownRef}>
@@ -170,7 +171,7 @@ export default function Navbar() {
                   </svg>
                 </button>
                 {isCoursesOpen && (
-                  <div className="absolute z-10 mt-2 w-56 rounded-md shadow-lg bg-blue-950 ring-1">
+                  <div className="absolute z-10 mt-2 w-56 rounded-md shadow-lg ring-1 bg-[#000027]">
                     <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
                       <Link href="/courses#professional-english" className="block px-4 py-2 text-sm text-white hover:bg-blue-900" role="menuitem">Professional English</Link>
                       <Link href="/courses#business-communication" className="block px-4 py-2 text-sm text-white hover:bg-blue-900" role="menuitem">Business Communication and Soft Skills</Link>
@@ -181,20 +182,18 @@ export default function Navbar() {
                 )}
               </div>
               </Link>
-              <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=venusvoice24@gmail.com"
-                className="bg-yellow-400 text-black px-6 py-2 rounded-full font-medium hover:bg-yellow-500 transition-colors"
-              >
-                Connect
-              </a>
+              <Link href="/Contact" className="text-gray-500 hover:text-gray-400">
+                Contact
+              </Link>
+              
             </div>
           </div>
         </div>
       </div>
 
       {/* Mobile menu, show/hide based on menu state  */}
-       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden backdrop-blur-sm`}>
-        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-[#000027]">
+       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden bg-[#000027]`}>
+        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
         <Link
               href="/"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-500 hover:text-gray-400 hover:bg-gray-50"
@@ -242,13 +241,6 @@ export default function Navbar() {
               onClick={handleMobileLinkClick}
             >
               Contact
-            </Link>
-            <Link
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=venusvoice24@gmail.com"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-500 hover:text-gray-400 hover:bg-gray-50"
-              onClick={handleMobileLinkClick}
-            >
-              Connect
             </Link>
         </div>
       </div>

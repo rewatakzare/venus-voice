@@ -4,14 +4,24 @@ export default function Founders() {
   return (
     <div className="min-h-screen  text-white p-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 ">
-        <h1 className="text-5xl text-gray-400 font-bold mb-12 relative inline-block">
+        <h1 className="text-5xl  font-bold mb-12 relative inline-block">
           About Founders
         </h1>
         <div className="space-y-8 max-w-full ">
           
           <div className='md:flex gap-8 mb-10'>
+          <div className="rounded-xl overflow-hidden mt-5">
+            <Image
+              src="/gayatri.jpg?height=200&width=1200"
+              alt="Colorful waves"
+              width={1000}
+              height={1000}
+              sizes="(max-width: 640px) 50vw, (max-width: 1024px) 50vw, 30vw"
+              className="w-[100%] md:w-[100%] md:h-[95%] h-auto rounded-xl"
+            />
+          </div>
           <div className='md:w-[80%] w-full'>
-          <h1 className='font-bold mb-3 text-xl md:text-2xl'>Amulyaa Gayatri Yadala : Co-Founder & CEO
+          <h1 className='font-bold mb-3 text-xl md:text-2xl mt-5'>Amulyaa Gayatri Yadala : Co-Founder & CEO
          </h1>
             <p className="text-gray-300 text-sm">
             I am excited to bring my extensive experience and passion for teaching to a platform dedicated to empowering learners. With over 12 years of experience as an Academic Educator and IIT Foundation Faculty, I am committed to delivering quality education for students and professionals alike.<br/><br/>
@@ -26,16 +36,6 @@ export default function Founders() {
              To all those who share the belief in the transformative power of education, this mission is for you too. Together, we can create a brighter future, one empowered mind at a time.
              Thank you for taking the time to understand the inspiration behind this mission. Join us in continuing this legacy of empowerment and education.
             </p>
-          </div>
-            <div className="rounded-xl overflow-hidden mt-5">
-            <Image
-              src="/gayatri.jpg?height=200&width=1200"
-              alt="Colorful waves"
-              width={1000}
-              height={1000}
-              sizes="(max-width: 640px) 50vw, (max-width: 1024px) 50vw, 30vw"
-              className="w-[100%] md:w-[100%] md:h-[95%] h-auto rounded-xl"
-            />
           </div>
           </div>
         </div>
@@ -55,7 +55,7 @@ export default function Founders() {
           </div>
           <div className='md:w-[80%] w-full'>
           <h1 className='text-xl md:text-2xl  font-bold mb-3'>Shyamala Kothapalli : Co-Founder & COO</h1>
-            <p className="text-gray-300">
+            <p className="text-gray-300 text-sm">
             I'm thrilled to announce the launch of my new educational platform, designed to empower students and professionals on their journey to growth and success!<br/><br/>
             About Me: <br/>
             MBA in Human Resources | Certified in Communication & Soft Skills
@@ -63,7 +63,7 @@ export default function Founders() {
             Expert in Online Teaching | Skilled Communication & Soft Skills Trainer
             With a decade of experience and a strong commitment to education, this platform is set to provide impactful training that enhances skills and drives success.
             </p>
-            <p className='mt-4 text-gray-300'> 
+            <p className='mt-4 text-gray-300 text-sm'> 
             Success doesn't happen in isolation—it thrives on encouragement and guidance. Personally, I am deeply grateful for the unwavering support of my family, who have always been my pillar of strength, motivating me to reach my goals.<br/>Our mission is to provide that same kind of encouragement and nurturing environment to help learners unlock their full potential and achieve fluency in English. Together, let’s make learning a truly empowering journey!
             </p>
           </div>

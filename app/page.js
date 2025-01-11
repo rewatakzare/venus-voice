@@ -1,5 +1,5 @@
 'use client'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import LoadingPage from './Components/LoadingPage'
 import Navbar from './Components/Navbar'
@@ -15,6 +15,14 @@ import Testimonials from './Components/Testimonial'
 
 export default function Page() {
   const [isLoading, setIsLoading] = useState(true)
+  const [hasLoaded, setHasLoaded] = useState(false)
+
+  useEffect(() => {
+    if (!hasLoaded) {
+      setIsLoading(true)
+      setHasLoaded(true)
+    }
+  }, [hasLoaded])
 
   const handleLoadingComplete = () => {
     setIsLoading(false)
@@ -22,25 +30,30 @@ export default function Page() {
 
   return (
     <main className='max-w-full overflow-hidden'>
-          <AnimatePresence mode="wait">
+      <AnimatePresence mode="wait">
         {isLoading ? (
           <LoadingPage key="loading" onLoadingComplete={handleLoadingComplete} />
-        ) : (
-      <div key="main">
-      <Navbar />
-      <Home />
-      <Courses/>
-      <Aboutus/>
-      <Founders/>
-      <Educators/>
-      <Testimonials/>
-      <Contact/>
-      <FAQ/>
-      <Footer/>
-      </div>
+        ) : ( 
+          <motion.div
+            key="main"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <Navbar />
+            <Home />
+            <Courses/>
+            <Aboutus/>
+            <Founders/>
+            <Educators/>
+            <Testimonials/>
+            <Contact/>
+            <FAQ/>
+            <Footer/>
+          </motion.div>
         )}
       </AnimatePresence>
-      
     </main>
   )
 }
