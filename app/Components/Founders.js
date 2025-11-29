@@ -12,8 +12,8 @@ export default function Founders() {
           <div className='md:flex gap-8 mb-10'>
           <div className="rounded-xl overflow-hidden mt-5">
             <Image
-              src="/gayatri.jpg?height=200&width=1200"
-              alt="Colorful waves"
+              src="/GayatriAmulya.jpg?height=100&width=1400"
+              alt="Ms.Gayatri Yadala"
               width={1000}
               height={1000}
               sizes="(max-width: 640px) 50vw, (max-width: 1024px) 50vw, 30vw"
@@ -45,7 +45,7 @@ export default function Founders() {
           <div className='md:flex gap-8'>
           <div className="rounded-xl overflow-hidden mb-4">
             <Image
-              src="/Shyamala.jpeg?height=200&width=1200"
+              src="/Shyamala.jpg?height=200&width=1200"
               alt="Colorful waves"
               width={1000}
               height={1000}

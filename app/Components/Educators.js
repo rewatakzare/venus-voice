@@ -19,40 +19,12 @@ const educators = [
     description: "I make learning fun, impactful and everlasting with my well researched teaching-learning techniques and strategies. With over two decades of experience in training students successfully in IELTS led me to understand the nuances of language teaching."
   },
   {
-    name: "Ms. Vishakha Ameya",
-    role: "MBC Soft Skills Trainer",
-    qualifications: "MSc in Biochemistry, B.Ed",
-    image: "/vishaka.jpg?height=200&width=200",
-    description: "Hello, I'm Vishakha, with an MSc in Biochemistry, B.Ed, and 10 years of teaching experience. I also hold a diploma in Soft Skills and Business Communication, allowing me to support both academic and personal growth. Excited to bring my expertise to our company, Venus Voice and inspire student success."
-  },
-  {
-    name: "Ms. Achuta Yellayi",
-    role: "MBC Soft Skills Trainer",
-    qualifications: "",
-    image: "/Achuta.jpeg?height=200&width=200",
-    description: "I'm Achuta—trainer, writer, and educator. With experience as a bank operations manager and soft skills trainer, I'm dedicated to helping others unlock their potential. My hands-on, interactive approach combines practical exercises and insights to help you express emotions naturally. I infuse creativity into every session, making learning engaging and relatable. Whether you want to polish your professional presence or improve daily conversations, I'm here to guide you in finding your voice."
-  },
-  {
     name: "Ms. Maria Hasaan",
     role: "BBC Soft Skills Trainer",
     qualifications: "M.A., M.Ed.",
     image: "/Maria.jpeg?height=200&width=200",
     description: "I am a hardworking and driven individual who isn't afraid of challenges. I am a passionate teacher with 8 years of teaching experience in English at both national and international levels."
   },
-  {
-    name: "Ms. Istuti Kumari",
-    role: "BBC Soft Skills Trainer",
-    qualifications: "M.Com, B.Ed.",
-    image: "/istuthi.jpg?height=200&width=200",
-    description: "With 5 years of experience, I am your friendly facilitator of knowledge. Get ready for engaging lessons and thought-provoking discussions that make learning enjoyable. Together, we'll unlock your potential and discover new horizons."
-  },
-  {
-    name: "Ms. Nitu Rajpal",
-    role: "BBC Soft Skills Trainer",
-    qualifications: "M.Com, B.Ed",
-    image: "/neetu.jpg?height=200&width=200",
-    description: "I am a dedicated and hardworking English trainer with nearly 5 years of teaching experience. I am easy going with all age groups, which enhances my classes."
-  }
 ]
 
 function EducatorCard({ educator }) {
