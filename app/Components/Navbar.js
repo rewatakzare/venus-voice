@@ -153,6 +153,9 @@ export default function Navbar() {
               <Link href="/About" className="text-gray-500 hover:text-gray-400">
                 About
               </Link>
+              <Link href="/Blog" className="text-gray-500 hover:text-gray-400">
+                Blog
+              </Link>
               <Link href="" className="text-gray-500 hover:text-gray-400">
               <div className="relative" ref={dropdownRef}>
                 <button
@@ -194,7 +197,7 @@ export default function Navbar() {
       {/* Mobile menu, show/hide based on menu state  */}
        <div className={`${isOpen ? 'block' : 'hidden'} md:hidden bg-[#000027]`}>
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-        <Link
+            <Link
               href="/"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-500 hover:text-gray-400 hover:bg-gray-50"
               onClick={handleMobileLinkClick}
@@ -207,6 +210,13 @@ export default function Navbar() {
               onClick={handleMobileLinkClick}
             >
               About
+            </Link>
+            <Link
+              href="/Blog"
+              className="block px-3 py-2 rounded-md text-base font-medium text-gray-500 hover:text-gray-400 hover:bg-gray-50"
+              onClick={handleMobileLinkClick}
+            >
+              Blog
             </Link>
             <div>
               <button

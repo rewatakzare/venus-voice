@@ -9,8 +9,43 @@ const educators = [
     role: "Rector",
     qualifications: "LLB, MBA(Human Resources)",
     image: "/SudhaRaman.jpg?height=200&width=200",
-    description: "As a passionate advocate with a flair for teaching, I embarked on an exciting journey to share my knowledge with the next generation. Although my career progression was briefly paused due to family commitments, my dedication to mentoring students remained unwavering. Embracing the flexibility of online platforms, I now have the privilege of guiding 15 students, nurturing their minds, and fostering a love for learning that extends beyond the classroom. With my expertise and enthusiasm, I strive to create an engaging, supportive, and inclusive environment that allows my students to thrive and reach their full potential."
+    description: "G. Sudha Ramani is a passionate and result-oriented English communication trainer at Venus Voice, dedicated to helping learners speak with clarity and confidence. With strong expertise in language training and international certifications including TESOL/TEFL, IELTS/PTE, NSDC, and Phonics Specialization, she empowers students and professionals to achieve global fluency. Known for her interactive and learner-centric approach, she creates an engaging environment that nurtures both skill and self-belief."
   },
+  {
+    name: "Ms. Seema Pandey",
+    role: "Communication & Soft Skills Trainer",
+    image: "/MsSeemaPandey.jpg?height=200&width=200",
+    description: "Ms. Seema Pandey, based in Mumbai, Maharashtra, brings over 25 years of rich professional experience to Venus Voice. With a Bachelor’s degree in Commerce and a Diploma in Marketing Management, she has built a strong foundation in communication, customer relations, and process clarity through her work in international call centres. Her expertise lies in developing transferable skills such as effective communication, problem-solving, and the ability to simplify complex ideas for learners. Ms. Seema is fluent in English, Hindi, Gujarati, and Marathi, enabling her to connect with a diverse group of learners with ease and confidence.At Venus Voice, she continues to inspire learners to speak with clarity, confidence, and purpose."
+  },
+  {
+    name: "Ms. Sarita Patnaik",
+    image: "/MsSaritaPatnaik.jpg?height=200&width=200",
+    description: "Ms. Sarita Patnaik brings over 20 years of experience in the teaching field, including 18 years of service as a Principal. Her leadership and commitment to education have shaped the academic and personal growth of countless students. In addition to her administrative expertise, she has also worked as a Soft Skills Trainer, helping learners enhance their communication, confidence, and interpersonal abilities. At Venus Voice, Ms. Sarita Patnaik continues to inspire learners with her deep experience, guiding them to achieve excellence through effective communication and professionalis"
+  },
+  {
+    name: "Ms. Rubina Naaz",
+    qualifications: "Master of Arts (M.A.) in English",
+    image: "/MsNaazRubina.jpg?height=200&width=200",
+    description: "Ms. Rubina Naaz holds a strong background in English and communication, with a diverse experience across multiple fields. She has 3 years of experience in medical writing, followed by 4 years of offline teaching as a freelancer. For the past 3 years, she has been successfully training learners as a Soft Skills, Communication, and Phonics Trainer, helping them develop fluency, clarity, and confidence in speaking. At Venus Voice, Ms. Rubina Naaz empowers learners to express themselves effectively and professionally, building strong communication foundations for personal and career growth."
+  },
+  {
+    name: "Ms. Jyotsna Siliveru",
+    qualifications: "M.A., B.Ed in English",
+    image: "/MsJyotsnaSiliveru.jpg?height=200&width=200",
+    description: "Ms. Jyotsna Siliveru is an experienced English language educator with over 9 years of teaching experience. She has also worked as a Public Speaking Expert for 1 year, helping learners enhance their stage presence, articulation, and confidence. Her passion for teaching and communication excellence makes her a valued member of the Venus Voice training team. At Venus Voice, Ms. Jyotsna Siliveru inspires learners to master the art of communication through clarity, confidence, and creativity."
+  },
+  {
+    name: "Ms. Shruti Raghu",
+    qualifications: "Master of Computer Applications (MCA)",
+    image: "/MsShruthiRaghu.jpg?height=200&width=200",
+    description: "Ms. Shruti Raghu has a strong background in communication and client interaction, supported by her technical expertise. She worked for 2 years at Square D Company on a UK-based project as an Advisor, where she developed excellent communication and problem-solving skills. She is expert as a Soft Skills and Business Communication Trainer, guiding learners to express themselves effectively in professional environments. At Venus Voice, Ms. Shruti Raghu helps learners refine their communication style and develop confidence, enabling them to thrive in both corporate and personal interactions."
+  },
+  {
+    name: "Ms. Bhartti M. Tanwani",
+    qualifications: "Certified IELTS, PTE, and Communication Coach",
+    image: "/MsBharttiMTanwani.jpg?height=200&width=200",
+    description: "Ms. Bhartti M. Tanwani is a certified communication and language trainer with a passion for helping learners achieve global language proficiency. She has 2 years of experience at Maruti Sparsh Automobiles and over 3 years of experience teaching communication and language skills with reputed platforms such as Ufaber and Planet Spark. Her dynamic approach to training blends practical communication techniques with confidence-building strategies. At Venus Voice, Ms. Bhartti M. Tanwani guides learners to enhance their English fluency and communication excellence, preparing them for success in both academic and professional domains."
+  },    
   {
     name: "Dr. Srilakshmi Kovvali",
     role: "IELTS Master Trainer",
@@ -40,9 +75,9 @@ function EducatorCard({ educator }) {
           <Image
             src={educator.image}
             alt={educator.name}
-            width={80}
-            height={80}
-            className="rounded-full"
+            width={120}
+            height={120}
+            className="w-24 h-24 rounded-full object-fit"
           />
           <div className="flex-grow">
             <h3 className="text-lg font-semibold">{educator.name}</h3>

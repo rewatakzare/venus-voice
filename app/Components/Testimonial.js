@@ -44,6 +44,36 @@ const testimonials = [
     name: "Alok Das",
     trainer: "Maria",
     text: "To grow personally and professionally, a guide who understands and supports you is invaluable. Maria Hasan, an exceptional English educator, profoundly impacted my life with her passion, patience, and dedication. She fostered critical thinking, shared real-life experiences, and provided constructive feedback, shaping me into who I am today. Thank you, Ma’am, for being my mentor and inspiration—I am deeply grateful!"
+  },
+  {
+    name: "Suresh",
+    location: "Calfornia, US",
+    trainer: "Bharatti",
+    text: "Bharatti is a very good mentor and she taught extremely well. She is a great narrator and always gave the right examples, how to construct sentences effectively.Thank you Bharati. I really appreciated your tangible speaking skills."
+  },
+  {
+    name: "Atanu Sadhak",
+    location: "West Bengal",
+    trainer: "Sumita",
+    text: "Hi I'm Atanu and I'm from West Bengal. Joining Venus Voice was the best decision ever! Sumita ma’am’s guidance is remarkable, she makes every class fun and motivating. I’ve started speaking more fluently and confidently than before. Her tips and constant encouragement really push you to do better. If you want to improve your English, this is the place to be! Speak smart with Venus Voice."
+  },
+  {
+    name: "Surekha",
+    location: "Denmark",
+    trainer: "Sudha",
+    text: "Hi Sudha Madam and Venus Voice. I am Niharika's mom. Thank you so much madam for your support. Niharika has improved a lot in terms of her writing skills and spellings 😊.Thank you for encouraging her creativity, helping her build strong communication skills, and making English a subject she genuinely enjoys. Your guidance has made a real difference in her learning and her confidence."
+  },
+  {
+    name: "Priya",
+    location: "Chennai",
+    trainer: "Sudha",
+    text: "I'm really happy with my one-month learning journey at Venus Voice Academy. Sudha ma'am has given me excellent knowledge in grammar, and now I’m able to speak with confidence and without hesitation. Thank you so much, ma’am, for your support and guidance."
+  },
+  {
+    name: "CH.Murali Krishna",
+    location: "VSP",
+    trainer: "Jyotsna",
+    text: "I extend my sincere gratitude to Venus Voice for shaping my children into confident speakers with exceptional speaking skills. A special thanks to our dedicated mentor, Jyotsna Madam, who expertly guides them toward effective communication her classes are engaging, enjoyable, creative, and packed with practical sessions that make learning fun and impactful."
   }
 ]
 
